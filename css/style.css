@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    --green: #59c45a;
+    --white: #fff;
+    --grey: #474747;
+    --darkgrey: #3c3c3c;
+    --lightgrey: #959595;
+    --wrapWidth: 1920px;
+    --contWidth: 1200px;
+    --font: 'Lato', sans-serif;
+}
+
+body {
+    background-color: var(--white);
+    font-family: var(--font);
+
+}
+
+.wrapper {
+    max-width: var(--wrapWidth);
+    margin: 0 auto;
+}
+
+.container {
+    max-width: var(--contWidth);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--grey);
+    display: block;
+    padding: 56px 23px;
+    font-size: 18px;
+    transition: .5s;
+    font-weight: 900;
+}
+
+nav a:hover{
+    color: var(--grey);
+    background: var(--green);
+}
+
+header .container {
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--green);
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+    padding: 12px 21px;
+    border: 2px solid #b7b7b7;
+    position: relative;
+}
+
+.logo::after {
+    content: "travel";
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--green);
+    font-weight: normal;
+    padding: 0 15px;
+    background: var(--white);
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+
+.mini-menu {
+    display: none;
+}
