@@ -24,6 +24,7 @@ body {
 .wrapper {
     max-width: var(--wrapWidth);
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .container {
@@ -384,9 +385,10 @@ header .container {
 .tw:hover{
     background: #1DA1F2;
 }
-
-.contact-form{
+.contact-form {
     padding: 30px;
+}
+.contact-form form{
     display: flex;
     flex-direction: column;
 }

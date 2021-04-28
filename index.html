@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
@@ -18,8 +19,8 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <a href="#" class="logo">Discover</a>
-                <nav>
+                <a href="#" class="logo" data-aos="slide-right">Discover</a>
+                <nav data-aos="slide-left">
                     <button class="mini-menu">Menu</button>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -34,19 +35,19 @@
 
         <section class="home">
             <div class="container home-container">
-                <h1 class="home-title">Discover</h1>
-                <p class="home-text">Lorem ipsum dolor sit amet consectetur adipisicing
+                <h1 class="home-title" data-aos="fade-up" data-aos-delay="50">Discover</h1>
+                <p class="home-text" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing
                      elit. Tempore obcaecati ipsum quibusdam,
                       accusantium amet molestiae molestias unde
                        temporibus explicabo, laudantium harum eos 
                        delectus nostrum illum fugit quis velit odit provident.</p>
-                <a class="home-link" href="#">Book a Tour</a>
+                <a class="home-link" href="#" data-aos="fade-up" data-aos-delay="150">Book a Tour</a>
             </div>
         </section>
         <section class="favorable">
             <h2 class="section-title">Favorable</h2>
             <div class="container fav-container">
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/10/600/600" alt="">
                     <div class="fav-text">
                         <h6>Lorem ipsum dolor sit amet consectetur
@@ -54,7 +55,7 @@
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellendus ipsum omnis porro, commodi corrupti quibusdam fugit explicabo. Maxime aliquam tempora expedita dicta earum inventore vel cum ipsam ullam error?</p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1006/600/600" alt="">
                     <div class="fav-text">
                         <h6>Lorem ipsum dolor sit amet consectetur
@@ -62,7 +63,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa nam aspernatur amet, vitae ad eius impedit adipisci est repellat sed quae reiciendis quos quisquam. Ipsa natus alias ratione consectetur cupiditate.</p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1015/600/600" alt="">
                     <div class="fav-text">
                         <h6>Lorem ipsum dolor sit amet consectetur
@@ -70,7 +71,7 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis blanditiis mollitia sit porro ad laboriosam, rem facere unde, at animi quod, non hic eligendi aliquid. Est necessitatibus eum in laudantium!</p>
                     </div>
                 </article>
-                <article class="fav-item">
+                <article class="fav-item" data-aos="flip-left">
                     <img class="fav-img" src="https://picsum.photos/id/1018/600/600" alt="">
                     <div class="fav-text">
                         <h6>Lorem ipsum dolor sit amet consectetur
@@ -170,7 +171,7 @@
                           Blanditiis, eum dolorum labore quibusdam ullam quam maiores et.</p>
                           <div class="contact-item">
                               <i class="fas fa-phone-square-alt"></i>
-                              <a href="tel: +8888888888">+888888888</a>
+                              <a href="tel:+8888888888">+888888888</a>
 
                           </div>
                           <div class="contact-item">
@@ -189,7 +190,7 @@
                         </div>
                 </div>
                 <div class="contact-form">
-                    <form accept="">
+                    <form accept="mail.php">
                         <input type="text" placeholder="Your Name">
                         <input type="text" placeholder="Email">
                         <textarea placeholder="Message"></textarea>
@@ -201,6 +202,7 @@
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
 </body>
