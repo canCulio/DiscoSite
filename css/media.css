@@ -1,3 +1,21 @@
+@media(max-width:1200px){
+    .service {
+        flex-direction: column;
+    }
+    .service-slider,
+    .service-block {
+        width: 100%;
+    }
+    .service-slider {
+        height: 280px;
+    }
+    .slide img{
+        width: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
+
 @media(max-width:1000px) {
     header .container {
         flex-direction: column;
@@ -67,6 +85,9 @@
         padding-left: 0;
         padding-right: 0;
     }
+    .service-item {
+        width: 100%;
+    }
 
 }
 
@@ -79,5 +100,11 @@
         width: 70%;
         margin: 0 auto;
         border: 3px solid var(--green);
+    }
+    .slide img{
+        filter: blur(5px);
+    }
+    .slick-center img{
+        filter: blur(0);
     }
 }
