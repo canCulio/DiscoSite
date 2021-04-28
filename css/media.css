@@ -94,6 +94,13 @@
     .tours-container a{
         flex: 0 49%;
     }
+    .contacts-container{
+        flex-direction: column;
+    }
+    .contact-info,
+    .contact-form{
+        width: 100%;
+    }
 
 }
 
